@@ -14,9 +14,9 @@ def print_primes(n):
             print(num, end = '  ')
 
 def get_primes(n):
-    prime_lst = []
+    primes = []
     for num in range (2,n):
         if is_prime(num):
-            meh = str(num)
-            prime_lst.append(meh)
-    return prime_lst
+            primes.append(num)
+
+    return primes 
