@@ -17,5 +17,6 @@ def get_primes(n):
     prime_lst = []
     for num in range (2,n):
         if is_prime(num):
-            prime_lst.append(str(num))
+            meh = str(num)
+            prime_lst.append(meh)
     return prime_lst
